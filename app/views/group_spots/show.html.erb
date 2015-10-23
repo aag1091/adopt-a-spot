@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Group:</strong>
+  <%= @group_spot.group %>
+</p>
+
+<p>
+  <strong>Spot:</strong>
+  <%= @group_spot.spot %>
+</p>
+
+<%= link_to 'Edit', edit_group_spot_path(@group_spot) %> |
+<%= link_to 'Back', group_spots_path %>

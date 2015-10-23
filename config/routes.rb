@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :group_spots
+
+  resources :spots
+
+  resources :user_groups
+
+  resources :groups
+
   devise_for :users
   get 'welcome/index'
 

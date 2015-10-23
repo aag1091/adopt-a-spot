@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  apipie
   resources :group_spots
 
   resources :spots

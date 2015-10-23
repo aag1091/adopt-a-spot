@@ -5,8 +5,10 @@ namespace :spot do
       scrubbedName, rawLocation, scrubbedLocation, latitude, longitude = line.split("\t")
       if scrubbedLocation.split(',').count < 4
         city, state, country = scrubbedLocation.split(',')
-      else
+      elsif scrubbedLocation.split(',').count < 5
         add1, city, state, country = scrubbedLocation.split(',')
+      else
+        add1, add2, city, state, country = scrubbedLocation.split(',')
       end
       if state && state.split(' ').count > 1
         state, zipcode = state.split(' ')
@@ -19,7 +21,7 @@ namespace :spot do
         state = state.strip if state
         zipcode = zipcode.strip if zipcode
         spot = Spot.find_or_create_by(name: scrubbedName)
-        spot.update_attributes({name: scrubbedName, add1: add1, city: city, state: state, zipcode: zipcode, latitude: latitude, longitude: longitude})
+        spot.update_attributes({name: scrubbedName, add1: add1, add2: add2, city: city, state: state, zipcode: zipcode, latitude: latitude, longitude: longitude})
       end
     end   
   end

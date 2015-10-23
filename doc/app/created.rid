@@ -1,0 +1,19 @@
+Fri, 23 Oct 2015 16:08:17 -0400
+README.rdoc	Fri, 23 Oct 2015 16:08:04 -0400
+app/controllers/application_controller.rb	Fri, 23 Oct 2015 12:57:30 -0400
+app/controllers/group_spots_controller.rb	Fri, 23 Oct 2015 15:07:51 -0400
+app/controllers/groups_controller.rb	Fri, 23 Oct 2015 14:25:54 -0400
+app/controllers/spots_controller.rb	Fri, 23 Oct 2015 13:54:05 -0400
+app/controllers/user_groups_controller.rb	Fri, 23 Oct 2015 14:26:08 -0400
+app/controllers/welcome_controller.rb	Fri, 23 Oct 2015 14:33:20 -0400
+app/helpers/application_helper.rb	Fri, 23 Oct 2015 12:57:30 -0400
+app/helpers/group_spots_helper.rb	Fri, 23 Oct 2015 15:07:52 -0400
+app/helpers/groups_helper.rb	Fri, 23 Oct 2015 13:36:47 -0400
+app/helpers/spots_helper.rb	Fri, 23 Oct 2015 13:48:04 -0400
+app/helpers/user_groups_helper.rb	Fri, 23 Oct 2015 13:41:28 -0400
+app/helpers/welcome_helper.rb	Fri, 23 Oct 2015 12:57:30 -0400
+app/models/group.rb	Fri, 23 Oct 2015 13:36:47 -0400
+app/models/group_spot.rb	Fri, 23 Oct 2015 15:07:51 -0400
+app/models/spot.rb	Fri, 23 Oct 2015 13:48:04 -0400
+app/models/user.rb	Fri, 23 Oct 2015 13:30:56 -0400
+app/models/user_group.rb	Fri, 23 Oct 2015 13:41:28 -0400

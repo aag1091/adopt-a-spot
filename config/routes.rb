@@ -1,4 +1,13 @@
 Rails.application.routes.draw do
+  resources :group_spots
+
+  resources :spots
+
+  resources :user_groups
+
+  resources :groups
+
+  devise_for :users
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

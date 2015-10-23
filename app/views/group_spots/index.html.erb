@@ -1,0 +1,27 @@
+<h1>Listing group_spots</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Group</th>
+      <th>Spot</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @group_spots.each do |group_spot| %>
+      <tr>
+        <td><%= group_spot.group %></td>
+        <td><%= group_spot.spot %></td>
+        <td><%= link_to 'Show', group_spot %></td>
+        <td><%= link_to 'Edit', edit_group_spot_path(group_spot) %></td>
+        <td><%= link_to 'Destroy', group_spot, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Group spot', new_group_spot_path %>

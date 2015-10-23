@@ -26,3 +26,54 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+                  Prefix Verb   URI Pattern                     Controller#Action
+             group_spots GET    /group_spots(.:format)          group_spots#index
+                         POST   /group_spots(.:format)          group_spots#create
+          new_group_spot GET    /group_spots/new(.:format)      group_spots#new
+         edit_group_spot GET    /group_spots/:id/edit(.:format) group_spots#edit
+              group_spot GET    /group_spots/:id(.:format)      group_spots#show
+                         PATCH  /group_spots/:id(.:format)      group_spots#update
+                         PUT    /group_spots/:id(.:format)      group_spots#update
+                         DELETE /group_spots/:id(.:format)      group_spots#destroy
+                   spots GET    /spots(.:format)                spots#index
+                         POST   /spots(.:format)                spots#create
+                new_spot GET    /spots/new(.:format)            spots#new
+               edit_spot GET    /spots/:id/edit(.:format)       spots#edit
+                    spot GET    /spots/:id(.:format)            spots#show
+                         PATCH  /spots/:id(.:format)            spots#update
+                         PUT    /spots/:id(.:format)            spots#update
+                         DELETE /spots/:id(.:format)            spots#destroy
+             user_groups GET    /user_groups(.:format)          user_groups#index
+                         POST   /user_groups(.:format)          user_groups#create
+          new_user_group GET    /user_groups/new(.:format)      user_groups#new
+         edit_user_group GET    /user_groups/:id/edit(.:format) user_groups#edit
+              user_group GET    /user_groups/:id(.:format)      user_groups#show
+                         PATCH  /user_groups/:id(.:format)      user_groups#update
+                         PUT    /user_groups/:id(.:format)      user_groups#update
+                         DELETE /user_groups/:id(.:format)      user_groups#destroy
+                  groups GET    /groups(.:format)               groups#index
+                         POST   /groups(.:format)               groups#create
+               new_group GET    /groups/new(.:format)           groups#new
+              edit_group GET    /groups/:id/edit(.:format)      groups#edit
+                   group GET    /groups/:id(.:format)           groups#show
+                         PATCH  /groups/:id(.:format)           groups#update
+                         PUT    /groups/:id(.:format)           groups#update
+                         DELETE /groups/:id(.:format)           groups#destroy
+        new_user_session GET    /users/sign_in(.:format)        devise/sessions#new
+            user_session POST   /users/sign_in(.:format)        devise/sessions#create
+    destroy_user_session DELETE /users/sign_out(.:format)       devise/sessions#destroy
+           user_password POST   /users/password(.:format)       devise/passwords#create
+       new_user_password GET    /users/password/new(.:format)   devise/passwords#new
+      edit_user_password GET    /users/password/edit(.:format)  devise/passwords#edit
+                         PATCH  /users/password(.:format)       devise/passwords#update
+                         PUT    /users/password(.:format)       devise/passwords#update
+cancel_user_registration GET    /users/cancel(.:format)         devise/registrations#cancel
+       user_registration POST   /users(.:format)                devise/registrations#create
+   new_user_registration GET    /users/sign_up(.:format)        devise/registrations#new
+  edit_user_registration GET    /users/edit(.:format)           devise/registrations#edit
+                         PATCH  /users(.:format)                devise/registrations#update
+                         PUT    /users(.:format)                devise/registrations#update
+                         DELETE /users(.:format)                devise/registrations#destroy
+           welcome_index GET    /welcome/index(.:format)        welcome#index
+                    root GET    /                               welcome#index

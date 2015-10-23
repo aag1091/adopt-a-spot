@@ -4,9 +4,12 @@ namespace :spot do
     File.foreach(Rails.root+'db/data/GroupsLocationsScrubbed.txt') do |line|
       scrubbedName, rawLocation, scrubbedLocation, latitude, longitude = line.split("\t")
       if scrubbedLocation.split(',').count < 4
-        city, state, zipcode = scrubbedLocation.split(',')
+        city, state, country = scrubbedLocation.split(',')
       else
-        add1, city, state, zipcode = scrubbedLocation.split(',')
+        add1, city, state, country = scrubbedLocation.split(',')
+      end
+      if state && state.split(' ').count > 1
+        state, zipcode = state.split(' ')
       end
 
       if scrubbedName != 'scrubbedName'

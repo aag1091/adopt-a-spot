@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151023211040) do
+ActiveRecord::Schema.define(version: 20151023233559) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20151023211040) do
     t.integer  "spot_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "source_id"
   end
 
   add_index "group_spots", ["group_id"], name: "index_group_spots_on_group_id", using: :btree
@@ -30,6 +31,7 @@ ActiveRecord::Schema.define(version: 20151023211040) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "source_id"
   end
 
   create_table "spots", force: true do |t|
@@ -54,6 +56,7 @@ ActiveRecord::Schema.define(version: 20151023211040) do
     t.integer  "group_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "source_id"
   end
 
   add_index "user_groups", ["group_id"], name: "index_user_groups_on_group_id", using: :btree
@@ -72,6 +75,7 @@ ActiveRecord::Schema.define(version: 20151023211040) do
     t.inet     "last_sign_in_ip"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
+    t.string   "source_id"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree

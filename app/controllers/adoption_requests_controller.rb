@@ -1,7 +1,7 @@
 class AdoptionRequestsController < ApplicationController
   before_action :set_adoption_request, only: [:show, :edit, :update, :destroy]
 
-  respond_to :html
+  respond_to :html, :json
 
   def index
     @adoption_requests = AdoptionRequest.all
@@ -42,6 +42,6 @@ class AdoptionRequestsController < ApplicationController
     end
 
     def adoption_request_params
-      params.require(:adoption_request).permit(:group_name, :no_of_volunteers, :first_name, :last_name, :add1, :city, :state, :zipcode, :email, :phone, :category_id)
+      params.require(:adoption_request).permit(:group_name, :no_of_volunteers, :first_name, :last_name, :add1, :city, :state, :zipcode, :email, :phone, :category_id, avatar: [])
     end
 end

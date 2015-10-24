@@ -47,3 +47,5 @@ gem 'rails_12factor', group: :production
 gem 'geocoder'
 
 gem 'rails_admin'
+
+gem 'kaminari'

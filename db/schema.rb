@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151023233559) do
+ActiveRecord::Schema.define(version: 20151024014835) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -49,6 +49,8 @@ ActiveRecord::Schema.define(version: 20151023233559) do
     t.string   "google_street_view_image_url"
     t.float    "latitude"
     t.float    "longitude"
+    t.float    "distance"
+    t.float    "bearing"
   end
 
   create_table "user_groups", force: true do |t|

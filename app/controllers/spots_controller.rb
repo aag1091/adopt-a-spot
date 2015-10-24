@@ -4,7 +4,7 @@ class SpotsController < ApplicationController
   respond_to :html, :json
 
   def index
-    @spots = Spot.all
+    @spots = Spot.order('name').page params[:page]
     respond_with(@spots)
   end
 

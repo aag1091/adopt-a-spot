@@ -26,6 +26,8 @@
   <dd><%= @adoption_request.phone %></dd>
   <dt><strong><%= model_class.human_attribute_name(:category_id) %>:</strong></dt>
   <dd><%= @adoption_request.category_id %></dd>
+  <dt><strong><%= model_class.human_attribute_name(:avatar) %>:</strong></dt>
+  <dd><%= image_tag @adoption_request.avatar.url %></dd>
 </dl>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),

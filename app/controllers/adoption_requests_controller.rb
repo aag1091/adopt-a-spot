@@ -42,6 +42,6 @@ class AdoptionRequestsController < ApplicationController
     end
 
     def adoption_request_params
-      params.require(:adoption_request).permit(:group_name, :no_of_volunteers, :first_name, :last_name, :add1, :city, :state, :zipcode, :email, :phone, :category_id, avatar: [])
+      params.require(:adoption_request).permit(:group_name, :no_of_volunteers, :first_name, :last_name, :add1, :city, :state, :zipcode, :email, :phone, :category_id, :spot_id, :avatar)
     end
 end

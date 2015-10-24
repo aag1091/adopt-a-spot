@@ -49,3 +49,7 @@ gem 'geocoder'
 gem 'rails_admin'
 
 gem 'kaminari'
+
+gem "paperclip", "~> 4.3"
+
+gem 'aws-sdk', '< 2.0'

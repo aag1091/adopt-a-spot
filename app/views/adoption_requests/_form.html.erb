@@ -1,4 +1,4 @@
-<%= form_for @adoption_request, :html => { :class => "form-horizontal adoption_request" } do |f| %>
+<%= form_for @adoption_request, :html => { :class => "form-horizontal adoption_request", multipart: true } do |f| %>
 
     <% if @adoption_request.errors.any? %>
     <div id="error_expl" class="panel panel-danger">
@@ -91,6 +91,13 @@
       <%= f.text_field :category_id, :class => 'form-control' %>
     </div>
     <%= error_span(@adoption_request[:category_id]) %>
+  </div>
+  <div class="control-group">
+    <%= f.label :avatar, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.file_field :avatar, :class => 'form-control' %>
+    </div>
+    <%= error_span(@adoption_request[:avatar]) %>
   </div>
 
 

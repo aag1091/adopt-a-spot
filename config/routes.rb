@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :adoption_requests
+
+  resources :categories
+
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :group_spots
 

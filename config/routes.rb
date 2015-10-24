@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :adoption_requests
+
+  resources :categories
+
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :group_spots
 
@@ -15,7 +19,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'welcome#index'
+  root 'spots#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

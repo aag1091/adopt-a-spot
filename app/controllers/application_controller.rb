@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   before_filter :set_location
+  skip_before_action :verify_authenticity_token
 
   def set_location
     @location = request.location

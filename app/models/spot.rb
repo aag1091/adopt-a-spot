@@ -4,6 +4,7 @@ class Spot < ActiveRecord::Base
   has_many :groups, through: :group_spots
   geocoded_by :address
   after_validation :geocode, :if => :address_changed?
+  has_many :adoption_requests
 
   def address
     "#{add1}, #{add2}, #{city} #{state}, #{zipcode}"

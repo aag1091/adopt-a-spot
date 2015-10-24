@@ -64,7 +64,19 @@
 
     
     
+    <!-- Method Quickref -->
+<div id="method-list-section" class="nav-section">
+  <h3>Methods</h3>
+
+  <ul class="link-list" role="directory">
     
+    <li ><a href="#method-i-address">#address</a>
+    
+    <li ><a href="#method-i-address_changed-3F">#address_changed?</a>
+    
+  </ul>
+</div>
+
   </div>
 </nav>
 
@@ -90,6 +102,80 @@
     
 
     
+     <section id="public-instance-5Buntitled-5D-method-details" class="method-section">
+       <header>
+         <h3>Public Instance Methods</h3>
+       </header>
+
+    
+      <div id="method-i-address" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">address</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="address-source">
+            <pre><span class="ruby-comment"># File app/models/spot.rb, line 8</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">address</span>
+  <span class="ruby-node">&quot;#{add1}, #{add2}, #{city} #{state}, #{zipcode}&quot;</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+      <div id="method-i-address_changed-3F" class="method-detail ">
+        
+        <div class="method-heading">
+          <span class="method-name">address_changed?</span><span
+            class="method-args">()</span>
+          
+          <span class="method-click-advice">click to toggle source</span>
+          
+        </div>
+        
+
+        <div class="method-description">
+          
+          
+          
+          
+
+          
+          <div class="method-source-code" id="address_changed-3F-source">
+            <pre><span class="ruby-comment"># File app/models/spot.rb, line 12</span>
+<span class="ruby-keyword">def</span> <span class="ruby-identifier">address_changed?</span>
+  <span class="ruby-identifier">add1_changed?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">add2_changed?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">city_changed?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">state_changed?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">zipcode_changed?</span>
+<span class="ruby-keyword">end</span></pre>
+          </div>
+          
+        </div>
+
+        
+
+        
+      </div>
+
+    
+    </section>
+  
   </section>
 </main>
 

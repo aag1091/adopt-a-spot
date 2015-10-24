@@ -1,0 +1,56 @@
+<%- model_class = AdoptionRequest -%>
+<div class="page-header">
+  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
+</div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:group_name) %></th>
+      <th><%= model_class.human_attribute_name(:no_of_volunteers) %></th>
+      <th><%= model_class.human_attribute_name(:first_name) %></th>
+      <th><%= model_class.human_attribute_name(:last_name) %></th>
+      <th><%= model_class.human_attribute_name(:add1) %></th>
+      <th><%= model_class.human_attribute_name(:city) %></th>
+      <th><%= model_class.human_attribute_name(:state) %></th>
+      <th><%= model_class.human_attribute_name(:zipcode) %></th>
+      <th><%= model_class.human_attribute_name(:email) %></th>
+      <th><%= model_class.human_attribute_name(:phone) %></th>
+      <th><%= model_class.human_attribute_name(:category_id) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @adoption_requests.each do |adoption_request| %>
+      <tr>
+        <td><%= link_to adoption_request.id, adoption_request_path(adoption_request) %></td>
+        <td><%= adoption_request.group_name %></td>
+        <td><%= adoption_request.no_of_volunteers %></td>
+        <td><%= adoption_request.first_name %></td>
+        <td><%= adoption_request.last_name %></td>
+        <td><%= adoption_request.add1 %></td>
+        <td><%= adoption_request.city %></td>
+        <td><%= adoption_request.state %></td>
+        <td><%= adoption_request.zipcode %></td>
+        <td><%= adoption_request.email %></td>
+        <td><%= adoption_request.phone %></td>
+        <td><%= adoption_request.category_id %></td>
+        <td><%=l adoption_request.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_adoption_request_path(adoption_request), :class => 'btn btn-default btn-xs' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      adoption_request_path(adoption_request),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-xs btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_adoption_request_path,
+            :class => 'btn btn-primary' %>

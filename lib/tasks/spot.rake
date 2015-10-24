@@ -21,7 +21,8 @@ namespace :spot do
         state = state.strip if state
         zipcode = zipcode.strip if zipcode
         spot = Spot.find_or_create_by(name: scrubbedName)
-        spot.update_attributes({name: scrubbedName, add1: add1, add2: add2, city: city, state: state, zipcode: zipcode, latitude: latitude, longitude: longitude})
+        category = Category.order("RANDOM()").first
+        spot.update_attributes({name: scrubbedName, add1: add1, add2: add2, city: city, state: state, zipcode: zipcode, latitude: latitude, longitude: longitude, status: [true, false].sample, category_id: category.id})
       end
     end   
   end

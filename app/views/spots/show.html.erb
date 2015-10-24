@@ -1,38 +1,18 @@
 <%- model_class = Spot -%>
 
 <div class="container">
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
+  <%= image_tag('Placeholder.jpg', :class => "jumbotron img-responsive")%>
+
+    <strong><%= model_class.human_attribute_name(:team_name) %></strong>
+    <br/><%= @spot.name %><br/><br/>
+    <strong><%= model_class.human_attribute_name(:location) %></strong>
+    <br/><%= @spot.add1 %> <%= @spot.city %>, <%= @spot.state %> <%= @spot.zipcode %><br/><br/>
+    <strong>Getting Started</strong>
+    <ul>
+      <li>Review requirements for program.</li>
+      <li>Assign a group leader responsible for meeting these requirements</li>
+      <li>Have a group leader fill out a registration form</li>
+      <li>Once your form is submitted, KNB will review it for approval and contact you to schedule an orientation/safety training.</li>
+    </ul><br/>
+    <a href="#" id="requirement_link">Requirements</a><br/><br/>
 </div>
-  <div class="row">
-
-
-  <dl class="dl-horizontal col-md-1">
-    <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
-    <dd><%= @spot.name %></dd>
-    <dt><strong><%= model_class.human_attribute_name(:maintainer) %>:</strong></dt>
-    <dd><%= @spot.maintainer %></dd>
-    <dt><strong><%= model_class.human_attribute_name(:status) %>:</strong></dt>
-    <dd><%= @spot.status %></dd>
-  </dl>
-
-  <dl class="dl-horizontal col-md-5">
-    <dd><%= @spot.add1 %></dd>
-    <dd><%= @spot.add2 %></dd>
-    <dd><%= @spot.city %>, <%= @spot.state %> <%= @spot.zipcode %></dd>
-  </dl>
-
-  <%= image_tag('Placeholder.jpg', :class => "img-rounded img-responsive col-md-6")%>
-
-  </div>
-</div>
-
-<%= link_to t('.back', :default => t("helpers.links.back")),
-              spots_path, :class => 'btn btn-default'  %>
-<%= link_to t('.edit', :default => t("helpers.links.edit")),
-              edit_spot_path(@spot), :class => 'btn btn-default' %>
-<%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-              spot_path(@spot),
-              :method => 'delete',
-              :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-              :class => 'btn btn-danger' %>

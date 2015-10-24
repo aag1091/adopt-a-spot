@@ -8,7 +8,7 @@ class SearchService
 
   def spots
     @_spots = Spot.where(query)
-    @_spots = @_spots.near(center, 0.804672, units: :km, :order => :distance) if !center.blank?
+    @_spots = @_spots.near(center, 0.804672, units: :km, :order => :distance) if center
     @_spots.page(params[:page])
   end
 
@@ -22,8 +22,8 @@ class SearchService
 
   def query
     q = {}
-    if params[:active]
-      q[:active] = params[:active]
+    if params[:status]
+      q[:status] = params[:status]
     end
     q
   end

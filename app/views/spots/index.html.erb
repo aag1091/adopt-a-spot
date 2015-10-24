@@ -12,7 +12,7 @@
   <% @spots.each do |spot| %>
     <div class="col-md-6">
       <%= link_to spot do %>
-        <%= image_tag('Placeholder.jpg', :class => "img-responsive", :id => "spot_picture") %>
+        <%= image_tag("https://maps.googleapis.com/maps/api/streetview?size=600x300&location=#{spot.latitude},#{spot.longitude}", :class => "img-responsive", :id => "spot_picture") %>
       <% end %>
       <div id="spot_name_address">
         <%= spot.name %> <br/>

@@ -48,8 +48,8 @@
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav" id="nav_bar_text">
             <li><%= image_tag('adopt-a-spot-white-logo.png', size: "35", :class => "img-responsive")%></li>
-            <li><%= link_to "Adopted Spots", spots_path(status: true)  %></li>
-            <li><%= link_to "Orphan Spots", spots_path(status: false)  %></li>
+            <li class="highlighted_nav<%= params[:active] == true ? 'active' : '' %>"><%= link_to "Adopted Spots", spots_path(status: true)  %></li>
+            <li class="highlight_nav<%= params[:active] == false ? 'active' : '' %>"><%= link_to "Orphan Spots", spots_path(status: false)  %></li>
             <li><%= link_to "About", "/path2"  %></li>
             <li><%= link_to "Link3", "/path3"  %></li>
           </ul>

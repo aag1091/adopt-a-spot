@@ -1,5 +1,6 @@
 class AdoptionRequest < ActiveRecord::Base
   belongs_to :category
+  belongs_to :spot
 
   # This method associates the attribute ":avatar" with a file attachment
   has_attached_file :avatar, styles: {

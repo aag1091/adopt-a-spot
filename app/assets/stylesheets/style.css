@@ -18,6 +18,10 @@ body{
   padding: 20px;
   background-color: #FFFFFF;
 }
+
+.highlight_nav{
+  background-color: black;
+}
 /* Panel list navigation styles */
 .pagination {
   float: right;

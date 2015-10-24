@@ -1,5 +1,10 @@
-<h1>Adopt-A-Spot Locations</h1>
-<p>Easier way to find Adopt-A-Spot locations</p>
+<% if params[:active] %>
+  <h1>Adopted Locations</h1>
+  <p>Easier way to find Adopt-A-Spot locations</p>
+<% else %>
+  <h1>Orphan Locations</h1>
+  <p>Easier way to find Adopt-A-Spot locations</p>
+<% end %>
 
 <!-- Panel listing -->
 <div class="container">

@@ -11,7 +11,9 @@
 /* Landscape phones and down */
 @media (max-width: 480px) { ... }
 
-body { padding-top:30px; }
+
+/* Spot list's styles */
+body { padding-top:30px;}
 .widget .panel-body { padding:0px; }
 .widget .list-group { margin-bottom: 0; }
 .widget .panel-title { display:inline }
@@ -23,6 +25,7 @@ body { padding-top:30px; }
 .widget .comment-text { font-size: 12px; }
 .widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
 
+/* Panel list navigation styles */
 .pagination {
   float: right;
   height: 36px;
@@ -31,7 +34,6 @@ body { padding-top:30px; }
 .pagination ul {
   display: inline-block;
   *display: inline;
-  /* IE7 inline-block hack */
 
   *zoom: 1;
   margin-left: 0;

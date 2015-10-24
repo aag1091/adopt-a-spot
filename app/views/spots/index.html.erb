@@ -4,44 +4,26 @@
 <!-- Panel listing -->
 <div class="container">
   <div class="row">
-    <% @spots.each do |spot| %>
-      <div class="panel panel-default widget">
-        <div class="panel-body">
-          <ul class="list-group">
-            <li class="list-group-item">
-              <div class="row">
-                <div class="col-xs-3 col-md-3">
-                  <%= image_tag('stock.jpg', :class => "img-thumbnail img-responsive")%></div>
-                    <div class="col-xs-9 col-md-9">
-                      <div>
-                        <%= link_to spot.name, spot %><br />
-                        <%= spot.add1 %><br />
-                        <%= spot.add2 %>
-                        <div class="mic-info"> <%= spot.city %>, <%= spot.state %> <%= spot.zipcode %>
-                      </div>
-                    </div>
-                    <div class="comment-text"> Maintainer: <%= spot.maintainer %></div>
-                      <div class="action">
-                        <button type="button" class="btn btn-primary btn-xs" title="Edit">
-                          <span class="glyphicon glyphicon-pencil"></span>
-                        </button>
-                        <button type="button" class="btn btn-success btn-xs" title="Approved">
-                          <span class="glyphicon glyphicon-ok"></span>
-                        </button>
-                        <button type="button" class="btn btn-danger btn-xs" title="Delete">
-                          <span class="glyphicon glyphicon-trash"></span>
-                        </button>
-                      </div>
-                    </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+  <% @spots.each do |spot| %>
+    <div class="col-md-6">
+      <%= link_to spot do %>
+        <%= image_tag('Placeholder.jpg', :class => "img-responsive", :id => "spot_picture") %>
+      <% end %>
+      <div id="spot_name_address">
+        <%= spot.name %> <br/>
+        <%= spot.add1 %> <%= spot.city %>, <%= spot.state %> <%= spot.zipcode %>
       </div>
-    <% end %>
+      <br/>
+    </div>
+  <% end %>
   </div>
+</div>
 
   <!-- Panel Listing Navigation -->
   <%= paginate @spots %>
 
 </div>
+
+
+
+

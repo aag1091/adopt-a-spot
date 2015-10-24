@@ -1,16 +1,23 @@
+#nav_bar{
+  background-color: #2E8C6A;
+}
 
-/* Spot list's styles */
-.widget .panel-body { padding:0px; }
-.widget .list-group { margin-bottom: 0; }
-.widget .panel-title { display:inline }
-.widget .label-info { float: right; }
-.widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
-.widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
-.widget .mic-info { color: #666666;font-size: 11px; }
-.widget .action { margin-top:5px; }
-.widget .comment-text { font-size: 12px; }
-.widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
+#nav_bar_text li a{
+  color: #FFFFFF;
+}
 
+body{
+  background-color: #EFEFEF;
+}
+
+#spot_picture:hover{
+  opacity: .5; -webkit-filter: grayscale(100%) sepia(100%);
+}
+
+#spot_name_address{
+  padding: 20px;
+  background-color: #FFFFFF;
+}
 /* Panel list navigation styles */
 .pagination {
   float: right;

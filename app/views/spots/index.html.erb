@@ -1,50 +1,55 @@
-<%- model_class = Spot -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human.pluralize.titleize %></h1>
-</div>
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
-      <th><%= model_class.human_attribute_name(:name) %></th>
-      <th><%= model_class.human_attribute_name(:add1) %></th>
-      <th><%= model_class.human_attribute_name(:add2) %></th>
-      <th><%= model_class.human_attribute_name(:city) %></th>
-      <th><%= model_class.human_attribute_name(:state) %></th>
-      <th><%= model_class.human_attribute_name(:zipcode) %></th>
-      <th><%= model_class.human_attribute_name(:status) %></th>
-      <th><%= model_class.human_attribute_name(:maintainer) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
-      <th><%=t '.actions', :default => t("helpers.actions") %></th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @spots.each do |spot| %>
-      <tr>
-        <td><%= link_to spot.id, spot_path(spot) %></td>
-        <td><%= spot.name %></td>
-        <td><%= spot.add1 %></td>
-        <td><%= spot.add2 %></td>
-        <td><%= spot.city %></td>
-        <td><%= spot.state %></td>
-        <td><%= spot.zipcode %></td>
-        <td><%= spot.status %></td>
-        <td><%= spot.maintainer %></td>
-        <td><%=l spot.created_at %></td>
-        <td>
-          <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                      edit_spot_path(spot), :class => 'btn btn-default btn-xs' %>
-          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
-                      spot_path(spot),
-                      :method => :delete,
-                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
-                      :class => 'btn btn-xs btn-danger' %>
-        </td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<h1>Adopt-A-Spot Locations</h1>
+<p>Easier way to find Adopt-A-Spot locations</p>
 
-<%= link_to t('.new', :default => t("helpers.links.new")),
-            new_spot_path,
-            :class => 'btn btn-primary' %>
+<!-- Panel listing -->
+<div class="container">
+  <div class="row">
+    <% @spots.each do |spot| %>
+      <div class="panel panel-default widget">
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <div class="row">
+                <div class="col-xs-3 col-md-3">
+                  <%= image_tag('stock.jpg', :class => "img-thumbnail img-responsive")%></div>
+                    <div class="col-xs-9 col-md-9">
+                      <div>
+                        <%= link_to spot.name, spot %><br />
+                        <%= spot.add1 %><br />
+                        <%= spot.add2 %>
+                        <div class="mic-info"> <%= spot.city %>, <%= spot.state %> <%= spot.zipcode %>
+                      </div>
+                    </div>
+                    <div class="comment-text"> Maintainer: <%= spot.maintainer %></div>
+                      <div class="action">
+                        <button type="button" class="btn btn-primary btn-xs" title="Edit">
+                          <span class="glyphicon glyphicon-pencil"></span>
+                        </button>
+                        <button type="button" class="btn btn-success btn-xs" title="Approved">
+                          <span class="glyphicon glyphicon-ok"></span>
+                        </button>
+                        <button type="button" class="btn btn-danger btn-xs" title="Delete">
+                          <span class="glyphicon glyphicon-trash"></span>
+                        </button>
+                      </div>
+                    </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <!-- Panel Listing Navigation -->
+  <div class="pagination">
+    <ul>
+      <li><a href="#">←</a></li>
+      <li class="active"><a href="#">1</a></li>
+      <li class="disabled"><a href="#">...</a></li>
+      <li><a href="#">20</a></li>
+      <li><a href="#">→</a></li>
+    </ul>
+  </div>
+
+</div>

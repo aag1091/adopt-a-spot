@@ -1,26 +1,32 @@
 <%- model_class = Spot -%>
+
+<div class="container">
 <div class="page-header">
   <h1><%=t '.title', :default => model_class.model_name.human.titleize %></h1>
 </div>
+  <div class="row">
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
-  <dd><%= @spot.name %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:add1) %>:</strong></dt>
-  <dd><%= @spot.add1 %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:add2) %>:</strong></dt>
-  <dd><%= @spot.add2 %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:city) %>:</strong></dt>
-  <dd><%= @spot.city %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:state) %>:</strong></dt>
-  <dd><%= @spot.state %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:zipcode) %>:</strong></dt>
-  <dd><%= @spot.zipcode %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:status) %>:</strong></dt>
-  <dd><%= @spot.status %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:maintainer) %>:</strong></dt>
-  <dd><%= @spot.maintainer %></dd>
-</dl>
+
+  <dl class="dl-horizontal col-md-1">
+    <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
+    <dd><%= @spot.name %></dd>
+    <dt><strong><%= model_class.human_attribute_name(:maintainer) %>:</strong></dt>
+    <dd><%= @spot.maintainer %></dd>
+    <dt><strong><%= model_class.human_attribute_name(:status) %>:</strong></dt>
+    <dd><%= @spot.status %></dd>
+  </dl>
+
+  <dl class="dl-horizontal col-md-5">
+    <dd><%= @spot.add1 %></dd>
+    <dd><%= @spot.add2 %></dd>
+    <dd><%= @spot.city %>, <%= @spot.state %> <%= @spot.zipcode %></dd>
+
+  </dl>
+
+  <%= image_tag('stock.jpg', :class => "img-rounded img-responsive col-md-6")%>
+
+  </div>
+</div>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),
               spots_path, :class => 'btn btn-default'  %>

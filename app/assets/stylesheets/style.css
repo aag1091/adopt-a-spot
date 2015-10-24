@@ -6,8 +6,14 @@
   color: #FFFFFF;
 }
 
+#nav_bar_text li a:hover{
+  color: #c9c9c9;
+}
+
 body{
   background-color: #EFEFEF;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 #spot_picture:hover{
@@ -17,6 +23,20 @@ body{
 #spot_name_address{
   padding: 20px;
   background-color: #FFFFFF;
+}
+
+.jumbotron {
+  width: 100%;
+  background-size: cover;
+}
+
+#requirement_link{
+  color: #2E829E;
+  text-decoration: underline;
+}
+
+.highlight_nav{
+  background-color: #226f53;
 }
 /* Panel list navigation styles */
 .pagination {

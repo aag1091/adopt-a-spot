@@ -7,6 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
-['Highway', 'Park', 'Spot', 'Street', 'Trail', 'Waterway', 'Landscape Maintenance'].each do |cat|
+['Highway', 'Park', 'Street', 'Trail', 'Waterway', 'Landscape Maintenance'].each do |cat|
   Category.find_or_create_by(name: cat)
 end

@@ -1,0 +1,205 @@
+scrubbedName	rawLocation	scrubbedLocation	latitude	longitude
+Aaliyah Chapter #225	West 38th Street & Llewellyn Avenue	W 38th St, Norfolk, VA, USA	36.8798457	-76.2981701
+Alpha Kappa Alpha Sorority, INC. Iota Omega Chapter	East Bute Street (No additional info)	E Bute St, Norfolk, VA, USA	36.852467	-76.284655
+Alpha Kappa Psi (Hampton)	41st Street/ Killam/ Powhatan	W 41st St, Norfolk, VA 23508, USA	36.8819473	-76.3030279
+Ambassadors	W. 36th St. from Llewellyn to Colonial	W 36th St, Norfolk, VA, USA	36.8788181	-76.290461
+ASD RSO Norfolk	Ridgewell and Rippart Avenue	Ridgewell Ave, Norfolk, VA 23503, USA	36.9489049	-76.267392
+ASTC	Hampton Boulevard between Helmick Street and Admiral Taussig Boulevard	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+Asenath #12	Norview  Ave from North Military Hwy to Azalea	Norview Ave, Norfolk, VA, USA	36.8928047	-76.2268578
+Aunt Jean and Friends	Beach adoption from 13th to 20th streets	Norfolk, VA, USA	36.8507689	-76.2858726
+AWSTS	Drop Off Center -Lowery St and Security Lane	Norfolk, VA, USA	36.8507689	-76.2858726
+Azalea Acres/Lakes CL	Azalea Garden Rd from Military Hwy to Norview 	Azalea Garden Rd, Norfolk, VA, USA	36.887823	-76.221272
+BAE Systems Norfolk Ship Repair (Not apprentice)	East Berkley Avenue between State Street and Whitehead Street	E Berkley Ave, Norfolk, VA 23523, USA	36.8322387	-76.2770736
+Ballentine Civic League	Cape Henry Avenue (Along unused RR tracks)/Grandy Ave/ McKann	Cape Henry Ave, Norfolk, VA, USA	36.8721044	-76.2295282
+Bank of America	Park Adoption- Commercial Park between Main and Plume 	Norfolk, VA, USA	36.8507689	-76.2858726
+Beautiful Mindz Motorcycle Club	26th Street from Llewellyn to Bowden's Ferry Rd	W 26th St, Norfolk, VA, USA	36.8744195	-76.2952579
+Blooming Light Lodge	Sewells Point Rd. from Avenue J to Middleton Pl	Sewells Point Rd, Norfolk, VA, USA	36.890238	-76.2385926
+OPEN	Granby St. from Thole to Little Creek Rd, shipping center	Granby St, Norfolk, VA, USA	36.9017137	-76.2781593
+Ballantine Civic League	Ballentine Blvd., McClemore St., Ballentine ElemSchool to Vincent Ave.	Ballentine Blvd, Norfolk, VA, USA	36.8592975	-76.2495326
+Campostella Heights Comanche Pathfinders/Adventures	Oakwood St from Indian River Rd to Arlington Ave	Oakwood St, Norfolk, VA 23523, USA	36.833614	-76.2604669
+Caring for Creation, Christ and St. Luke's Episcopal Church	Hague- northend from Olney to Fairfax ave	The Hague Pedestrian Bridge, Norfolk, VA 23507, USA	36.8546542	-76.2961716
+Charity Chapter #659	Lakewood Park	Lakewood Park, Norfolk, VA 23509, USA	36.888412	-76.2663706
+Chesterfield Heights Civic League	 Kimball Terrace from Ballentine to Brambleton and Westminster Ave from Ballentine to Sedgewick Street	Kimball Terrace, Norfolk, VA 23504, USA	36.8424447	-76.255584
+Chi Beta Chi	 Brambleton and Church to Church and VB blvd back down Lincoln St. including MLK JR Plaza	Brambleton, Norfolk, VA 23504, USA	36.8482034	-76.271051
+Chi Eta Phi (Nursing Sorority)	Granby Street from Church Street to Princess Anne Road	Granby St, Norfolk, VA, USA	36.9017137	-76.2781593
+Christ UMC	East Oceanview Community Park/ From 19th Bay to 20th Bay	East Ocean View Community Park, 9520 20th Bay St, Norfolk, VA 23518, USA	36.9263197	-76.1953996
+CNATTU Norfolk FCPOA	1st View from Ocean View to Tidewater Dr.	1st View St, Norfolk, VA 23503, USA	36.9487867	-76.2620821
+CNRFC/CNAFR	Helmick Street from Hampton Blvd to Elementary Dr.	Helmick St, Norfolk, VA, USA	36.9264535	-76.3113022
+Colonial Place/ Riverview Civic League #2	SPOT 4100-4200 blocks of Mayflower & Colley Ave	Norfolk, VA, USA	36.8507689	-76.2858726
+Colonial Place/ Riverview Civic League #3	 SPOT 600 and 700 Blocks of Pennsylvannia & Maryland	Norfolk, VA, USA	36.8507689	-76.2858726
+COMNAVSURFLANT 'CNSL FCPOA	Terminal Blvd from Diven St to end before interstate	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+COMOPTEVFOR FCPOA	Hampton Blvd. from Little Creek to Larchmont Library	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+OPEN	Colonial Ave. from Olney to 26th St.	Colonial Ave, Norfolk, VA, USA	36.885484	-76.2862741
+Consulate Healthcare of Norfolk	Granby St from Kingsley to 40th st	Granby St, Norfolk, VA, USA	36.9017137	-76.2781593
+Coronado/Inglenook Civic League	Philpotts E and Wiegeon Rd.	Philpotts Rd, Norfolk, VA, USA	36.8984289	-76.2495552
+Cub Scout #19	9450 Granby St Front of Miles Memorial United Methodist Church at 	Norfolk, VA, USA	36.8507689	-76.2858726
+Da Crew Ryders	Azealea Garden Rd form Norview Ave to Oleo Rd	Azalea Garden Rd, Norfolk, VA, USA	36.887823	-76.221272
+Daughters of Sarah #164	100 - 1100 blocks of Park Ave.	100 Park Ave, Norfolk, VA 23510, USA	36.8424234	-76.2811343
+Debora Mosher, Citizen	Halprin and Johnston's from Little Creek to Military	Halprin Dr, Norfolk, VA 23518, USA	36.9204499	-76.21699
+Delta Epsilon Beta Debutante Sorority	Corprew Ave From Park to Majestic	Corprew Ave, Norfolk, VA 23504, USA	36.850501	-76.260885
+OPEN	 Tidewater Dr.  From Lafayette Blvd to Cromwell Dr.	Tidewater Dr, Norfolk, VA, USA	36.9019971	-76.2566774
+Eagle Scout Troop 24	SPOT - Larchmont Public Library and Birdsong Wetland	Norfolk, VA, USA	36.8507689	-76.2858726
+Eastern Light #4	1514 Princess Anne Road/Park Ave/From PA to Louiha	1514 E Princess Anne Rd, Norfolk, VA 23504, USA	36.854513	-76.266022
+East Oceanview Community/Recreation Center	20th Bay Street/Rec Center/ East Ocean View  Ave	20th Bay St, Norfolk, VA 23518, USA	36.9284198	-76.1943992
+Eco Cycling	SPOT Granby St Bridge and Park	Norfolk, VA, USA	36.8507689	-76.2858726
+Eggleston Services	Ingleside from VB blvd to Princess Anne Rd	Ingleside, Norfolk, VA 23502, USA	36.8473572	-76.2334278
+Elizabeth Park Civic League	Corporate Blvd.,From Curlew Drive till Military Highway	Corporate Blvd, Norfolk, VA 23502, USA	36.8369663	-76.2120406
+Epiphany #1236 OES Chapter	Lafayette Park	Lafayette Park, Norfolk, VA 23504, USA	36.8787669	-76.2820032
+Ezekiel Lodge #571	Park adoption - Northside park	Norfolk, VA, USA	36.8507689	-76.2858726
+Fairmount Park Civic League	Poppe & Somme Wetland	Pope Ave, Norfolk, VA 23509, USA	36.8728771	-76.2634787
+Farrier Firefighting School (New)	Admiral Taussi/Sewell Point Elementary	Admiral Taussig Blvd, Norfolk, VA, USA	36.9322294	-76.2942628
+First Baptist Church, Berkley	Berkley Ave. from Fauquier St. to Wilson Rd.	Berkley Ave, Norfolk, VA, USA	36.8231823	-76.2624795
+Fleet Weather Center FCPOA	Beach Adoption Ocean View Beach Prk to Chesapeake Blvd.	Chesapeake Blvd, Norfolk, VA, USA	36.908629	-76.240561
+FRCMA First Class Mess	Norview Ave from  Military Hwy to Johns St.	Norview Ave, Norfolk, VA, USA	36.8928047	-76.2268578
+FRCMA Norfolk 900	Beach Adoption - 7th View to Sarah constant Beach Park	Norfolk, VA, USA	36.8507689	-76.2858726
+Freemason St. Area Association	Freemason, Bute, Colley Place, York from Dunmore, Botetourt, Yarmouth to Duke St.	Freemason Mews, Norfolk, VA 23510, USA	36.8516849	-76.2938428
+Friends of Broadcreek- sent letter		Norfolk, VA, USA	36.8507689	-76.2858726
+Friends of Willow Wood Dr.	Willow Wood Dr. east of the Lakewood bridge to Huntington Place	Huntington Pl, Norfolk, VA 23509, USA	36.8892137	-76.2670437
+Garden Club of Norfolk	Hampton Blvd from 21st St. to Redgate Av	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+Garden of Bethea #007	Park Adoption - Shoop Park	Norfolk, VA, USA	36.8507689	-76.2858726
+Garza Family	161 W. Gilpin to 500 E. Gilpin/Dudley; Granby and  Tidewater 	Norfolk, VA, USA	36.8507689	-76.2858726
+Girl Scout Troop 135	Newport Ave from Litle Creek Rd to Kingsley Ave	Newport Ave, Norfolk, VA, USA	36.8962194	-76.2863877
+GE Volunteers	Robin Hood Rd From Azalea Garden Rd to N Military Hwy	Robin Hood Rd, Norfolk, VA, USA	36.8790368	-76.2279474
+Genesis Lodge No. 21(New04/13/13)	Church Street/Goff	Church St, Norfolk, VA, USA	36.8631369	-76.2788056
+Glengariff Civic League-sent letter		Norfolk, VA, USA	36.8507689	-76.2858726
+Golden Rule 7:12 of Hampton	Olney from Colley Ave to Boush St.	W Olney Rd, Norfolk, VA, USA	36.8602683	-76.2995477
+Go Gettas MC	Sewells Point Road from Norview Community Center to Chesapeake Boulevard	Sewells Point Rd, Norfolk, VA, USA	36.890238	-76.2385926
+Granby High School Business Department-sentletter		Norfolk, VA, USA	36.8507689	-76.2858726
+Greater Pinewell Civic League	Pinewell area enclosed by Granby St., Ocean View, Norfolk Ave and Battersea	Granby St, Norfolk, VA, USA	36.9017137	-76.2781593
+Green and Clean Committee	Colonial Ave from 35th-26th St, Colley Ave., 26th St and Granby to 27th St and Colley	Colonial Ave, Norfolk, VA, USA	36.885484	-76.2862741
+Hampton Roads Rowing Club	Lakewood Park (Shoreline, boathouse & baseball area)	Lakewood Park, Norfolk, VA 23509, USA	36.888412	-76.2663706
+Hannah #103 Order of Eastern Stars	Norview Ave. from Military to Azalea Garden	Norview Ave, Norfolk, VA, USA	36.8928047	-76.2268578
+Harborfront Garden Club	Colley Ave. from Jamestown Cres. To W. 45th St.	Colley Ave, Norfolk, VA, USA	36.8732225	-76.295502
+Hatchet Ryders Car Club Tidewater Chapter	Monticello Ave. from VA Blvd. to City Hall	Monticello Ave, Norfolk, VA, USA	36.8609574	-76.2865594
+Hayden, Janet and Mike	Capeview Cres. And Lynn River Rd from Capeview Ave. to Inlet Rd.	Cape View Crescent, Norfolk, VA 23503, USA	36.930643	-76.2253707
+Heads Up SUV & Truck	Tidewater/Lafayette Blvd. to Princess Anne Rd.	Tidewater Dr, Norfolk, VA, USA	36.9019971	-76.2566774
+Highland Park Civic League	Colley Ave bridge south east base (near 53rd )  	Norfolk, VA, USA	36.8507689	-76.2858726
+Highland Park Civic League	 51st St. and Killam (wetland at deadend) and base of Colley Bridge at	W 51st St, Norfolk, VA 23508, USA	36.8893382	-76.295163
+HM - 14	School adoption- Sewells Point Elem	Norfolk, VA, USA	36.8507689	-76.2858726
+Holl Family	Lea View Avenue/ 15th View Street/ Chella Avenue	Lea View Ave, Norfolk, VA 23503, USA	36.9683557	-76.2942713
+Hollywood Homes and Maple Hall Neighborhoods	Perimeter of Fairlawn Elementary &Hudson Avenue, Cabot Street, Adair Avenue, Walles Avenue; Winburn Lane (west end) between Reel Street & East end of neighborhood	Norfolk, VA, USA	36.8507689	-76.2858726
+Hope House - Harrington	Green Space on Hampton Blvd. and 21st.	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+Hope House and Green Alternatives	Park Adoption -Barraud Park	Norfolk, VA, USA	36.8507689	-76.2858726
+Hoppy Dellert	Old Mill Rd. from Johnstons Rd. to Skyline	Old Mill Rd, Norfolk, VA 23518, USA	36.910215	-76.231123
+HSC 22 Sea Knights	Tidewater Dr. from Bayview Blvd. to Granby. ST. 	Tidewater Dr, Norfolk, VA, USA	36.9019971	-76.2566774
+HSC-2 FRD	Chesapeake Blvd from East Bay to Ocean vVew Ave	Chesapeake Blvd, Norfolk, VA, USA	36.908629	-76.240561
+HSC-26	W. Little Creek Rd./Hampton Blvd./ Ruthven Rd.	W Little Creek Rd, Norfolk, VA 23505, USA	36.9161946	-76.2904506
+HSC-28	Mason Creek Road from Ridgewell to W Government Ave.	Mason Creek Rd, Norfolk, VA 23503, USA	36.952738	-76.2612061
+HSC-84 Aircrew Red Wolves	 SPOT  Taussig Blvd. from Granby to E. Little Creek Rd	Admiral Taussig Blvd, Norfolk, VA, USA	36.9322294	-76.2942628
+Iota Phi Theta		Norfolk, VA, USA	36.8507689	-76.2858726
+Ingelside Civic League	Ingelside Elem	Ingleside Elementary School, 976 Ingleside Drive, Norfolk, VA 23502, USA	36.8535917	-76.238261
+Ingleside Civic Leage #2	 Ingelside Rec Center	Ingleside Recreation Center, 948 Ingleside Rd, Norfolk, VA 23502, USA	36.8513015	-76.2372515
+Intl. Boilmakers Local 684	State St. from Berkley Ave. to Indian River Rd.	State St, Norfolk, VA 23523, USA	36.8354563	-76.2855809
+Intl. Union of Operating Engineers Local #147	 N Center Drive Loop From Newton to  Kemsville Rd	Norfolk, VA, USA	36.8507689	-76.2858726
+Iota Phi Theta	Corprew from Park to Ballentine	Corprew Ave, Norfolk, VA 23504, USA	36.850501	-76.260885
+Jasmine #357 (New)		Norfolk, VA, USA	36.8507689	-76.2858726
+Joshua Lodge #7	E Ocean view fromGranby to E. Ocean View (Pretlow Library grounds)	East Ocean View, Norfolk, VA, USA	36.9314775	-76.1972107
+Judith Chapter #45 and Kadash Lodge #7	Tait Terrace from Rush St to Chesapeake Blvd	Tait Terrace, Norfolk, VA, USA	36.8669875	-76.2562265
+K9 MC, K9 Too MC and K9 Social Club VAB	Virginia Beach Blvd from Military Hwy to Raby Rd.	Virginia Beach Blvd, Norfolk, VA 23502, USA	36.8422589	-76.0860681
+Kappa Delta Rho	42nd St from Colley Ave to Powathan Ave	W 42nd St, Norfolk, VA, USA	36.8828703	-76.296539
+Kappa Sigma Fraternity	43rd st./ From Colley ave/To Powhatan	W 43rd St, Norfolk, VA 23508, USA	36.8834113	-76.3033833
+King Cyrus #729 - sent letter		Norfolk, VA, USA	36.8507689	-76.2858726
+Kiwanis Club of Norfolk	Monticello Ave from VB Blvd to 21st	Monticello Ave, Norfolk, VA, USA	36.8609574	-76.2865594
+Kiwanis of Ocean View Beach	Park adoption- Ocean View Park	Norfolk, VA, USA	36.8507689	-76.2858726
+Knights of Columbus Council 3548	Government Ave. from Granby to the end at O.V. ES	W Government Ave, Norfolk, VA 23503, USA	36.9530744	-76.2588536
+Lake Taylor Civic League	Kempsville Road from Lowery to Va Beach Blvd.	Kempsville Rd, Norfolk, VA 23502, USA	36.8585709	-76.1984081
+Lake Taylor High School Env Sci	Kempsville Road from Northhampton Boulevard to Old Phillips Road	Kempsville Rd, Norfolk, VA 23502, USA	36.8585709	-76.1984081
+Lamberts Point CL	From 25th Street and Bowdens Ferry Road	Norfolk, VA, USA	36.8507689	-76.2858726
+LEGIT	Liberty St. from South Main St. to Obendorfer Rd at Chesapeake City Line	E Liberty St, Norfolk, VA 23523, USA	36.8285399	-76.280143
+The Lentz Family	Willow Wood Dr. from Granby St to Tidewater Dr.	Willow Wood Dr, Norfolk, VA, USA	36.8885241	-76.2672669
+Lindenwood Elementary First Graders	Ludlow St. from Lindenwood to Summit	Ludlow St, Norfolk, VA 23504, USA	36.8678992	-76.271123
+Lindenwood-Cottage Hts.-Barraud Park	Lindenwood Ave.from 25th St. to Tidewater Dr.;Rugby St. from Hale St. to Tidewater Dr.	Lindenwood Ave, Norfolk, VA 23504, USA	36.8673564	-76.2721915
+Little Creek Lions Club	Halprin Dr. between Little Creek and Military	Halprin Dr, Norfolk, VA 23518, USA	36.9204499	-76.21699
+Magnolia Girls	Bolling Avenue	Bolling Ave, Norfolk, VA 23508, USA	36.891192	-76.3055265
+Maple Hall and Hollywood Civic League	Va Beach Blvd from Kempsville Rd to Newtown Rd.	E Virginia Beach Blvd, Norfolk, VA, USA	36.8555145	-76.2338042
+Military Sealift Command POA (New)	Spot Fourth View Street	4th View St, Norfolk, VA 23503, USA	36.9578196	-76.26348
+Meadowbrook Woods Civic League	Auburn Ave. from Johnstons to Longdale, Bank St. and Branch Rd.	Auburn Ave, Norfolk, VA 23513, USA	36.9059451	-76.2396579
+Moore Family (New)		Norfolk, VA, USA	36.8507689	-76.2858726
+Mystic Moon	Lynn Street between Military Hwy & Croft Also including Faris Street, Croft Street, N. Military HWY btw Faris Street & Croft St  & part of Azalea Garden	Lynn St, Norfolk, VA 23513, USA	36.8867634	-76.2197622
+Nancy Kline	Park adoption- Raleigh Ave Children's Park	Norfolk, VA, USA	36.8507689	-76.2858726
+NASSCO	Pearl Street Between Ligon Street and Mulberry Street/ Mulberry Street to Ligon Street/Ligon Streetto Pearl Street	Pearl St, Norfolk, VA 23523, USA	36.8358854	-76.2900365
+NAVAL STATION NORFOLK	Granby St. from E Bayview Blvd to Maple Ave.	Granby St, Norfolk, VA, USA	36.9017137	-76.2781593
+Naval Station FCPOA	Hampton Blvd,  Woodview ,  Glen Myrtle, Greenbriar	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+NCTAMS LANT DET HRDS JSA	Granby between Thole & West Little Creek Road	Granby St, Norfolk, VA, USA	36.9017137	-76.2781593
+NECC DET Combat Camera	Admiral Taussig outside Gate 3	Norfolk, VA, USA	36.8507689	-76.2858726
+Next Step Program	3222 Argonne Ave	3222 Argonne Ave, Norfolk, VA 23509, USA	36.877087	-76.256907
+NNSY	 Beach Adoption- Oceanview Community Beach  Granby - Chesapeake Blv	Norfolk, VA, USA	36.8507689	-76.2858726
+Norfolk Academy of Auto Aficionados	Miller Store Rd. from City Line to Robin Hood Rd.	Miller Store Rd, Norfolk, VA, USA	36.8847645	-76.2122613
+Norfolk Alumnae Chapter Delta Sigma Theta Sorority	Brambleton from St. Pauls to NOAA	Brambleton, Norfolk, VA 23504, USA	36.8482034	-76.271051
+Norfolk Christian Schools	Thole St from Tidewater to Granby	Thole St, Norfolk, VA, USA	36.9052946	-76.2640078
+Norfolk Lodge 38, BPO Elks	Raby Rd from VB BLvd to Military and Typo Ave	Raby Rd, Norfolk, VA 23502, USA	36.8590207	-76.2147796
+Norfolk Masons	Granby St 6700-7000 block	6700 Granby St, Norfolk, VA 23505, USA	36.901833	-76.277818
+Norfolk SPCA sent letter		Norfolk, VA, USA	36.8507689	-76.2858726
+Norfolk Sunrise Rotary	Parking lot G of Harbor Park.	Norfolk, VA, USA	36.8507689	-76.2858726
+Norfolk Therapeutic Recreation Center	East Evans Street/ Granby Street/ Tidewater Drive	E Evans St, Norfolk, VA 23503, USA	36.9343127	-76.2590532
+North Camelia Acres CL	School Adoption Little Creek Elm and grounds	Norfolk, VA, USA	36.8507689	-76.2858726
+North Shore Sports and Physical Therapy	Wards Corner	Wards Corner, Norfolk, VA 23505, USA	36.9161337	-76.2797715
+Norview Heights Civic League	Lenoir Ave from Chesapeake Blvd. to Bankhead and ditch from Sewells Point to Chesapeake.	Lenoir Cir, Norfolk, VA 23513, USA	36.8864697	-76.2446218
+Norview Lions Club	Chesapeake Blvd from 5 Points to Arizona Ave (RR Tracks)	Chesapeake Blvd, Norfolk, VA, USA	36.908629	-76.240561
+Notorious Ryders MC INC	Little Creek Road from Hampton to Ruthven	E Little Creek Rd, Norfolk, VA, USA	36.916815	-76.231409
+NSA Norfolk Security Dept.sent letter		Norfolk, VA, USA	36.8507689	-76.2858726
+Ocean View Business Association (OVBA)-sent letter		Norfolk, VA, USA	36.8507689	-76.2858726
+Ocean View Civic League	Library Adoption -Pretlow Library at Granby St. and Ocean View Ave, also Monkey Bottom park at Mason Creek and Ocean View Ave	Granby St, Norfolk, VA, USA	36.9017137	-76.2781593
+Ocean View Civic League (individual)	W Government Ave. and the field next to OV school and deadend of first view and Mason creek from Gov. Ave. to Tidewater	W Government Ave, Norfolk, VA 23503, USA	36.9530744	-76.2588536
+Ocean View Maritime School	Sand Hill btw Ocean View and Willoughby Elementary Schools	South Norfolk, Chesapeake, VA, USA	36.7940371	-76.2729952
+ODU Biology Graduate Student Organization	 Wetland Adoption -Birdsong Wetland Spot & WHRO Wetland	Norfolk Wetlands Board Permits, 810 Union St # 508, Norfolk, VA 23510, USA	36.8445062	-76.2858031
+ODU Environmental Health Club	49th St. from Powhatan Ave. to Hampton Blvd. 	49th St, Norfolk, VA 23508, USA	36.887304	-76.3149041
+ODU Recreation and Tourism Studies Majors Club	Park Adoption- Northside Park	Norfolk, VA, USA	36.8507689	-76.2858726
+ODU SVEA	Hampton Blvd From Escadrille Point to W 49th St	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+Olde Huntersville Civic League	700 Block Freemont Street	700 Fremont St, Norfolk, VA 23504, USA	36.8627841	-76.2785633
+Pearls of Peace #578	Military Highway from NorthHampton to Landstown	N Military Hwy, Norfolk, VA, USA	36.8794782	-76.2124518
+Pershing Angels sent letter		Norfolk, VA, USA	36.8507689	-76.2858726
+PETA	Colley St. from Olney to Gates	Colley Ave, Norfolk, VA, USA	36.8732225	-76.295502
+Phi Theta Kappa	Ocean View Ave.l from 9th Bay to Sturgess	W Ocean View Ave, Norfolk, VA 23503, USA	36.9645958	-76.2704493
+Phoenix Rising	17th and Colonial Ave. - Recycling Drop off Center	E 17th St, Norfolk, VA, USA	36.864002	-76.2843955
+Proverbs #31	Military From Norview to Robin Hood	N Military Hwy, Norfolk, VA, USA	36.8794782	-76.2124518
+Queen Vasti #1 OES	Princees Anne Rd from Military to Norcova Av	E Princess Anne Rd, Norfolk, VA, USA	36.8616792	-76.24721
+Reflections of a Queen #675	Little Creek Rd from Azalea Garden to Chesapeake Blvd	E Little Creek Rd, Norfolk, VA, USA	36.916815	-76.231409
+River Forest, WM, EP Civic League # 1	Curlew Dr From Feeder Road to Light Rail Station	Curlew Dr, Norfolk, VA, USA	36.8414721	-76.2064006
+River Forest, WM, EP Civic League # 2	SPOT - Military Gardens	N Military Hwy, Norfolk, VA, USA	36.8949569	-76.2237158
+River Star Homes	Lovers Lane- Granby Street & Willowwood / Loverslane & Granby Street	Granby St, Norfolk, VA, USA	36.9017137	-76.2781593
+Roland Park Civic League	'Roland Park/Tidewater Dr. RR Overpass	Norfolk, VA, USA	36.8507689	-76.2858726
+Rose of Sharon Grand Chapter #102	Va Beach Blvd @ Park Ave to Ballentine	E Virginia Beach Blvd, Norfolk, VA, USA	36.8555145	-76.2338042
+Royal Wisdom Chapter 777, St. James Supreme Council		Norfolk, VA, USA	36.8507689	-76.2858726
+Sacred Heart Catholic Church	Princess Anne from Hampton to Monticello	E Princess Anne Rd, Norfolk, VA, USA	36.8616792	-76.24721
+Second Chances Harbor House	Park Ave between Brambleton and Harbor House	Park Ave, Norfolk, VA, USA	36.8465288	-76.2706964
+Seven Wisemen 001	Chesapeake Boulevard From Norview Elementary to Norview Avenue	Chesapeake Blvd, Norfolk, VA, USA	36.908629	-76.240561
+Sigma Gamma Rho Soroity	Ballentine Blvd from Virginia Beach Blvd to Princess Anne Rd	Ballentine Blvd, Norfolk, VA, USA	36.8592975	-76.2495326
+Single Marine Program USMC	 Hampton Blvd. from 49th to 23rd St  1st Site  	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+Single Marine Program USMC	 Terminal Blvd. from Diven St east to ramps 2nd Site	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+Sistas of Sacrifyce SC	Park Adoption- Lakewood	Lakewood, Norfolk, VA 23509, USA	36.8883914	-76.2681871
+Sparks Family	Quincey St from Sunset Dr to Tallwood Ave	Quincy St, Norfolk, VA, USA	36.9283084	-76.2377325
+Spirit of Norfolk	Park Adoption - Harbor park Area- by Sheraton and Harbor Park	Norfolk, VA, USA	36.8507689	-76.2858726
+Strickland & Jones. P.C	Hague South from Pembroke/Mowbray to Brambleton	The Hague, Norfolk, VA, USA	36.8551444	-76.2984131
+Strike Force Training Command	Tidewater Dr from Lafayette Blvd to Willow Wood Dr	Tidewater Dr, Norfolk, VA, USA	36.9019971	-76.2566774
+Suburban Acres Civic League	Caton Park\Thole St. from Granby St. to Tidewater (sharing with Norfolk Christian School)	Thole St, Norfolk, VA, USA	36.9052946	-76.2640078
+Tabitha #105	Tidewater From Little Creek to Bayview	Tidewater Dr, Norfolk, VA, USA	36.9019971	-76.2566774
+Team:Corey Miller -N- Family TOC	East Little Creek Road From Azalea Garden to Shore Drive	E Little Creek Rd, Norfolk, VA, USA	36.916815	-76.231409
+Tidewater Bicycle Association	Church St. from Goff to Broadway (where Granby starts)	Church St, Norfolk, VA, USA	36.8631369	-76.2788056
+Tidewater Masonic Lodge #106	Hampton Blvd. from Little Creek to Greenbrier	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+Titus Lodge #592	Chesapeake Blvd.from Norview to Little Creek Rd	Chesapeake Blvd, Norfolk, VA, USA	36.908629	-76.240561
+TPU FCOPA	Bayview Blvd. from Granby St. to Chesapeake Blvd.	E Bayview Blvd, Norfolk, VA 23503, USA	36.933861	-76.2438129
+TPU SCPOA	Marina Adoption- Willoghby Bay Marina, along Bayville to end of 13th Street	Norfolk, VA, USA	36.8507689	-76.2858726
+Trinity #377	Kempsville Rd From Newtown to VB Blvd	Kempsville Rd, Norfolk, VA 23502, USA	36.8585709	-76.1984081
+Trinity Luthern Church School	Park Adoption - Riverpoint Park -  corner of Newport Ave. and Ridgeley Road	Newport Ave, Norfolk, VA, USA	36.8962194	-76.2863877
+Trinity Luthern Church Youth Group	West Belvedere Rd and Regent Rd Loop	W Belvedere Rd, Norfolk, VA 23505, USA	36.8938899	-76.2825862
+Troop 1	20th Street from Colley Ave to Elmwood Ave	W 20th St, Norfolk, VA 23517, USA	36.8681235	-76.291473
+Undeniably Divas Social Club	39th Street/Powhatan Ave/Gosnold Ave	W 39th St, Norfolk, VA, USA	36.8807282	-76.296979
+USFFC/N6	lakewood Park	Lakewood Park, Norfolk, VA 23509, USA	36.888412	-76.2663706
+USFF FCPOA	Terminal Blvd from Hampton to Meredith	Hampton Blvd, Norfolk, VA, USA	36.9039179	-76.3044994
+USPHS Commissioned Officers Association (Tidewater)	Park Adoption - Lafayette Park	Norfolk, VA, USA	36.8507689	-76.2858726
+USS Kearsarge CSADD	Galveston Blvd.  Between El Paso Avenue & Keene Road	Galveston Blvd, Norfolk, VA 23505, USA	36.914285	-76.2624123
+USS Arrlington LPD 24	 Little Creek Rd From Granby St to Tidewater Dr.	E Little Creek Rd, Norfolk, VA, USA	36.916815	-76.231409
+USS Theodore Roosevelt	Park Adoption - Lafayette Park (shares with Tidewater PHS COA)	Norfolk, VA, USA	36.8507689	-76.2858726
+VA D.I.V.A.S Social Club	35th Street from Lafayette park to Lambert's Point Rd	W 35th St, Norfolk, VA, USA	36.8779667	-76.2925724
+VAW 120 ARO	Colley Ave from 25th to 45th	Colley Ave, Norfolk, VA, USA	36.8732225	-76.295502
+Virginia Wesleyen	Securtity Lane Drop Of Center and Street	Norfolk, VA, USA	36.8507689	-76.2858726
+Visit Norfolk	21st Street from Hampton Blvd to Monticello Ave	W 21st St, Norfolk, VA 23517, USA	36.8697585	-76.2935799
+Vulcan Materials Company	Ballentine Blvd. from VA Beach Blvd. to Kimball Terrace	Ballentine Blvd, Norfolk, VA, USA	36.8592975	-76.2495326
+Wards Corner Civic League	Little Creek from Granby to Ogden Ruthven rd. from Terminal Blvd. to Millbrook	Little Creek, Virginia, USA	36.9188769	-76.179823
+The Watts Family	Granby St. from Forest Lawn Cemetary to Bayview Blvd.	Granby St, Norfolk, VA, USA	36.9017137	-76.2781593
+Willoughby Civic League	Willoughby Spit from 4th View to 15th View, Toler Place	Willoughby Spit, Norfolk, VA 23503, USA	36.9670915	-76.278552
+Zeta Gamma Chapter of Zeta Phi Beta	Princess Anne Rd for Park Ave to Ballantine Blvd	Norfolk, VA, USA	36.8507689	-76.2858726
+Zeta Phi Beta Sorority Inc - Beta Theta Zeta Chapter & Zeta Archonettes	Campostella Road Form Filmore St TO Berkley Av.	Campostella Rd, Norfolk, VA, USA	36.8342184	-76.2626978
+Zeta Tau Alpha/Sigma Phi Epsilon	Killam Avenue 38th -51st Street/ W. 38th Street/ W. 51st Street	W 38th St, Norfolk, VA, USA	36.8798457	-76.2981701
+Zipporah #22	norview ave and military hwy - one block radius	Norview Ave, Norfolk, VA, USA	36.8928047	-76.2268578

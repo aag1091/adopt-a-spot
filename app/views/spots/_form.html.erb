@@ -15,59 +15,58 @@
     </div>
   <% end %>
 
-  <div class="control-group">
+  <div class="form-group">
     <%= f.label :name, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :name, :class => 'form-control' %>
     </div>
     <%= error_span(@spot[:name]) %>
   </div>
-  <div class="control-group">
+  <div class="form-group">
     <%= f.label :add1, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :add1, :class => 'form-control' %>
     </div>
     <%= error_span(@spot[:add1]) %>
   </div>
-  <div class="control-group">
+  <div class="form-group">
     <%= f.label :add2, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :add2, :class => 'form-control' %>
     </div>
     <%= error_span(@spot[:add2]) %>
   </div>
-  <div class="control-group">
+  <div class="form-group">
     <%= f.label :city, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :city, :class => 'form-control' %>
     </div>
     <%= error_span(@spot[:city]) %>
   </div>
-  <div class="control-group">
+  <div class="form-group">
     <%= f.label :state, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :state, :class => 'form-control' %>
     </div>
     <%= error_span(@spot[:state]) %>
   </div>
-  <div class="control-group">
+  <div class="form-group">
     <%= f.label :zipcode, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :zipcode, :class => 'form-control' %>
     </div>
     <%= error_span(@spot[:zipcode]) %>
   </div>
-  <div class="control-group">
+  <div class="form-group">
     <%= f.label :maintainer, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :maintainer, :class => 'form-control' %>
     </div>
     <%= error_span(@spot[:maintainer]) %>
   </div>
-
-
+  <div class="form-group">
   <%= f.submit nil, :class => 'btn btn-primary' %>
   <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
             spots_path, :class => 'btn btn-default' %>
-
+  </div>
 <% end %>

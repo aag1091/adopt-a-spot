@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 
-<title>class SpotsController - Rails Application Documentation</title>
+<title>class CategoriesController - Rails Application Documentation</title>
 
 <script type="text/javascript">
   var rdoc_rel_prefix = "./";
@@ -90,9 +90,9 @@
   </div>
 </nav>
 
-<main role="main" aria-labelledby="class-SpotsController">
-  <h1 id="class-SpotsController" class="class">
-    class SpotsController
+<main role="main" aria-labelledby="class-CategoriesController">
+  <h1 id="class-CategoriesController" class="class">
+    class CategoriesController
   </h1>
 
   <section class="description">
@@ -137,11 +137,11 @@
 
           
           <div class="method-source-code" id="create-source">
-            <pre><span class="ruby-comment"># File app/controllers/spots_controller.rb, line 23</span>
+            <pre><span class="ruby-comment"># File app/controllers/categories_controller.rb, line 23</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">create</span>
-  <span class="ruby-ivar">@spot</span> = <span class="ruby-constant">Spot</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">spot_params</span>)
-  <span class="ruby-ivar">@spot</span>.<span class="ruby-identifier">save</span>
-  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@spot</span>)
+  <span class="ruby-ivar">@category</span> = <span class="ruby-constant">Category</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">category_params</span>)
+  <span class="ruby-ivar">@category</span>.<span class="ruby-identifier">save</span>
+  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@category</span>)
 <span class="ruby-keyword">end</span></pre>
           </div>
           
@@ -172,10 +172,10 @@
 
           
           <div class="method-source-code" id="destroy-source">
-            <pre><span class="ruby-comment"># File app/controllers/spots_controller.rb, line 34</span>
+            <pre><span class="ruby-comment"># File app/controllers/categories_controller.rb, line 34</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">destroy</span>
-  <span class="ruby-ivar">@spot</span>.<span class="ruby-identifier">destroy</span>
-  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@spot</span>)
+  <span class="ruby-ivar">@category</span>.<span class="ruby-identifier">destroy</span>
+  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@category</span>)
 <span class="ruby-keyword">end</span></pre>
           </div>
           
@@ -206,7 +206,7 @@
 
           
           <div class="method-source-code" id="edit-source">
-            <pre><span class="ruby-comment"># File app/controllers/spots_controller.rb, line 20</span>
+            <pre><span class="ruby-comment"># File app/controllers/categories_controller.rb, line 20</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">edit</span>
 <span class="ruby-keyword">end</span></pre>
           </div>
@@ -238,10 +238,10 @@
 
           
           <div class="method-source-code" id="index-source">
-            <pre><span class="ruby-comment"># File app/controllers/spots_controller.rb, line 6</span>
+            <pre><span class="ruby-comment"># File app/controllers/categories_controller.rb, line 6</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">index</span>
-  <span class="ruby-ivar">@spots</span> = <span class="ruby-constant">SearchService</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">params</span>).<span class="ruby-identifier">spots</span>
-  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@spots</span>)
+  <span class="ruby-ivar">@categories</span> = <span class="ruby-constant">Category</span>.<span class="ruby-identifier">all</span>
+  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@categories</span>)
 <span class="ruby-keyword">end</span></pre>
           </div>
           
@@ -272,10 +272,10 @@
 
           
           <div class="method-source-code" id="new-source">
-            <pre><span class="ruby-comment"># File app/controllers/spots_controller.rb, line 15</span>
+            <pre><span class="ruby-comment"># File app/controllers/categories_controller.rb, line 15</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">new</span>
-  <span class="ruby-ivar">@spot</span> = <span class="ruby-constant">Spot</span>.<span class="ruby-identifier">new</span>
-  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@spot</span>)
+  <span class="ruby-ivar">@category</span> = <span class="ruby-constant">Category</span>.<span class="ruby-identifier">new</span>
+  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@category</span>)
 <span class="ruby-keyword">end</span></pre>
           </div>
           
@@ -306,9 +306,9 @@
 
           
           <div class="method-source-code" id="show-source">
-            <pre><span class="ruby-comment"># File app/controllers/spots_controller.rb, line 11</span>
+            <pre><span class="ruby-comment"># File app/controllers/categories_controller.rb, line 11</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">show</span>
-  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@spot</span>)
+  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@category</span>)
 <span class="ruby-keyword">end</span></pre>
           </div>
           
@@ -339,10 +339,10 @@
 
           
           <div class="method-source-code" id="update-source">
-            <pre><span class="ruby-comment"># File app/controllers/spots_controller.rb, line 29</span>
+            <pre><span class="ruby-comment"># File app/controllers/categories_controller.rb, line 29</span>
 <span class="ruby-keyword">def</span> <span class="ruby-identifier">update</span>
-  <span class="ruby-ivar">@spot</span>.<span class="ruby-identifier">update</span>(<span class="ruby-identifier">spot_params</span>)
-  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@spot</span>)
+  <span class="ruby-ivar">@category</span>.<span class="ruby-identifier">update</span>(<span class="ruby-identifier">category_params</span>)
+  <span class="ruby-identifier">respond_with</span>(<span class="ruby-ivar">@category</span>)
 <span class="ruby-keyword">end</span></pre>
           </div>
           

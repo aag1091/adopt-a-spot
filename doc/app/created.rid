@@ -1,19 +1,26 @@
-Fri, 23 Oct 2015 16:08:17 -0400
-README.rdoc	Fri, 23 Oct 2015 16:08:04 -0400
-app/controllers/application_controller.rb	Fri, 23 Oct 2015 12:57:30 -0400
+Sat, 24 Oct 2015 09:02:11 -0400
+README.rdoc	Sat, 24 Oct 2015 09:01:50 -0400
+app/controllers/adoption_requests_controller.rb	Sat, 24 Oct 2015 08:55:06 -0400
+app/controllers/application_controller.rb	Fri, 23 Oct 2015 16:58:17 -0400
+app/controllers/categories_controller.rb	Sat, 24 Oct 2015 08:54:31 -0400
 app/controllers/group_spots_controller.rb	Fri, 23 Oct 2015 15:07:51 -0400
 app/controllers/groups_controller.rb	Fri, 23 Oct 2015 14:25:54 -0400
-app/controllers/spots_controller.rb	Fri, 23 Oct 2015 13:54:05 -0400
+app/controllers/spots_controller.rb	Fri, 23 Oct 2015 22:33:42 -0400
 app/controllers/user_groups_controller.rb	Fri, 23 Oct 2015 14:26:08 -0400
 app/controllers/welcome_controller.rb	Fri, 23 Oct 2015 14:33:20 -0400
+app/helpers/adoption_requests_helper.rb	Sat, 24 Oct 2015 08:55:06 -0400
 app/helpers/application_helper.rb	Fri, 23 Oct 2015 12:57:30 -0400
+app/helpers/categories_helper.rb	Sat, 24 Oct 2015 08:54:31 -0400
 app/helpers/group_spots_helper.rb	Fri, 23 Oct 2015 15:07:52 -0400
 app/helpers/groups_helper.rb	Fri, 23 Oct 2015 13:36:47 -0400
 app/helpers/spots_helper.rb	Fri, 23 Oct 2015 13:48:04 -0400
 app/helpers/user_groups_helper.rb	Fri, 23 Oct 2015 13:41:28 -0400
 app/helpers/welcome_helper.rb	Fri, 23 Oct 2015 12:57:30 -0400
-app/models/group.rb	Fri, 23 Oct 2015 13:36:47 -0400
+app/models/adoption_request.rb	Sat, 24 Oct 2015 08:55:06 -0400
+app/models/category.rb	Sat, 24 Oct 2015 08:54:30 -0400
+app/models/group.rb	Fri, 23 Oct 2015 20:09:40 -0400
 app/models/group_spot.rb	Fri, 23 Oct 2015 15:07:51 -0400
-app/models/spot.rb	Fri, 23 Oct 2015 13:48:04 -0400
-app/models/user.rb	Fri, 23 Oct 2015 13:30:56 -0400
+app/models/spot.rb	Fri, 23 Oct 2015 20:09:22 -0400
+app/models/user.rb	Fri, 23 Oct 2015 20:09:11 -0400
 app/models/user_group.rb	Fri, 23 Oct 2015 13:41:28 -0400
+app/services/search_service.rb	Fri, 23 Oct 2015 22:58:19 -0400

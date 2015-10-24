@@ -43,41 +43,45 @@
     </div>
     <%= error_span(@adoption_request[:last_name]) %>
   </div>
-  <div class="control-group">
-    <%= f.label :add1, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :add1, :class => 'form-control' %>
+  <% if @spot %>
+    <%= f.hidden_field :spot_id, value: @spot.id %>
+  <% else %>
+    <div class="control-group">
+      <%= f.label :add1, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :add1, :class => 'form-control' %>
+      </div>
+      <%= error_span(@adoption_request[:add1]) %>
     </div>
-    <%= error_span(@adoption_request[:add1]) %>
-  </div>
-  <div class="control-group">
-    <%= f.label :city, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :city, :class => 'form-control' %>
+    <div class="control-group">
+      <%= f.label :city, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :city, :class => 'form-control' %>
+      </div>
+      <%= error_span(@adoption_request[:city]) %>
     </div>
-    <%= error_span(@adoption_request[:city]) %>
-  </div>
-  <div class="control-group">
-    <%= f.label :state, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :state, :class => 'form-control' %>
+    <div class="control-group">
+      <%= f.label :state, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :state, :class => 'form-control' %>
+      </div>
+      <%= error_span(@adoption_request[:state]) %>
     </div>
-    <%= error_span(@adoption_request[:state]) %>
-  </div>
-  <div class="control-group">
-    <%= f.label :zipcode, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :zipcode, :class => 'form-control' %>
+    <div class="control-group">
+      <%= f.label :zipcode, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :zipcode, :class => 'form-control' %>
+      </div>
+      <%= error_span(@adoption_request[:zipcode]) %>
     </div>
-    <%= error_span(@adoption_request[:zipcode]) %>
-  </div>
-  <div class="control-group">
-    <%= f.label :email, :class => 'control-label' %>
-    <div class="controls">
-      <%= f.text_field :email, :class => 'form-control' %>
+    <div class="control-group">
+      <%= f.label :email, :class => 'control-label' %>
+      <div class="controls">
+        <%= f.text_field :email, :class => 'form-control' %>
+      </div>
+      <%= error_span(@adoption_request[:email]) %>
     </div>
-    <%= error_span(@adoption_request[:email]) %>
-  </div>
+  <% end %>
   <div class="control-group">
     <%= f.label :phone, :class => 'control-label' %>
     <div class="controls">
@@ -88,7 +92,7 @@
   <div class="control-group">
     <%= f.label :category_id, :class => 'control-label' %>
     <div class="controls">
-      <%= f.text_field :category_id, :class => 'form-control' %>
+      <%= f.select :category_id, Category.all.map{|cat| [cat.name, cat.id]}, :class => 'form-control' %>
     </div>
     <%= error_span(@adoption_request[:category_id]) %>
   </div>

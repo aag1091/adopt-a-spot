@@ -9,20 +9,22 @@
 <!-- Panel listing -->
 <div class="container">
   <div class="row">
-  <% @spots.each do |spot| %>
-    <div class="col-md-6">
-      <div class="col-md-12">
-      <%= link_to spot do %>
-        <%= image_tag("https://maps.googleapis.com/maps/api/streetview?size=600x300&location=#{spot.latitude},#{spot.longitude}", :class => "img-responsive", :id => "spot_picture") %>
-      <% end %>
-      <div id="spot_name_address">
-        <%= spot.name %> <br/>
-        <%= spot.add1 %> <%= spot.city %>, <%= spot.state %> <%= spot.zipcode %>
-        <%= image_tag "" %>
+    <% @spots.each do |spot| %>
+      <div class="col-md-6" style="padding-bottom: 10px;">
+        <%= link_to spot do %>
+          <%= image_tag("https://maps.googleapis.com/maps/api/streetview?size=600x300&location=#{spot.latitude},#{spot.longitude}", :class => "img-responsive", :id => "spot_picture") %>
+        <% end %>
+        <div id="cat" class="col-md-3" style="background: white;">
+          <%= image_tag "cat/#{spot.category.name.downcase}.png", height: 76 %>
+        </div>
+        <div id="spot_name_address" class="col-md-9">
+          <%= spot.name %> <br/>
+          <%= spot.add1 %> <%= spot.city %>, <%= spot.state %> <%= spot.zipcode %>&nbsp;&nbsp;&nbsp;&nbsp;
+          <%= link_to "Adopt It".html_safe, new_adoption_request_path(spot_id: spot.id) %>
+        </div>
+        <br/>
       </div>
-      <br/>
-    </div>
-  <% end %>
+    <% end %>
   </div>
 </div>
 

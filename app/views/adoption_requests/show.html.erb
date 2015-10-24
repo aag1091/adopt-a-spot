@@ -13,13 +13,13 @@
   <dt><strong><%= model_class.human_attribute_name(:last_name) %>:</strong></dt>
   <dd><%= @adoption_request.last_name %></dd>
   <dt><strong><%= model_class.human_attribute_name(:add1) %>:</strong></dt>
-  <dd><%= @adoption_request.add1 %></dd>
+  <dd><%= @spot.add1 || @adoption_request.add1 %></dd>
   <dt><strong><%= model_class.human_attribute_name(:city) %>:</strong></dt>
-  <dd><%= @adoption_request.city %></dd>
+  <dd><%= @spot.city || @adoption_request.city %></dd>
   <dt><strong><%= model_class.human_attribute_name(:state) %>:</strong></dt>
-  <dd><%= @adoption_request.state %></dd>
+  <dd><%= @spot.state || @adoption_request.state %></dd>
   <dt><strong><%= model_class.human_attribute_name(:zipcode) %>:</strong></dt>
-  <dd><%= @adoption_request.zipcode %></dd>
+  <dd><%= @spot.zipcode || @adoption_request.zipcode %></dd>
   <dt><strong><%= model_class.human_attribute_name(:email) %>:</strong></dt>
   <dd><%= @adoption_request.email %></dd>
   <dt><strong><%= model_class.human_attribute_name(:phone) %>:</strong></dt>
@@ -27,7 +27,7 @@
   <dt><strong><%= model_class.human_attribute_name(:category_id) %>:</strong></dt>
   <dd><%= @adoption_request.category_id %></dd>
   <dt><strong><%= model_class.human_attribute_name(:avatar) %>:</strong></dt>
-  <dd><%= image_tag @adoption_request.avatar.url %></dd>
+  <dd><%= image_tag @adoption_request.avatar.url, width: 600 %></dd>
 </dl>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),

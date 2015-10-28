@@ -9,11 +9,13 @@ class AdoptionRequestsController < ApplicationController
   end
 
   def show
+    @spot = @adoption_request.spot
     respond_with(@adoption_request)
   end
 
   def new
     @adoption_request = AdoptionRequest.new
+    @spot = Spot.find(params[:spot_id]) if params[:spot_id]
     respond_with(@adoption_request)
   end
 

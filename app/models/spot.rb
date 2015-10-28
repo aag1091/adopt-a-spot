@@ -5,6 +5,7 @@ class Spot < ActiveRecord::Base
   geocoded_by :address
   after_validation :geocode, :if => :address_changed?
   has_many :adoption_requests
+  belongs_to :category
 
   def address
     "#{add1}, #{add2}, #{city} #{state}, #{zipcode}"
